@@ -1,5 +1,5 @@
 ## GitHub
-#### we have:
+#### We have:
 
 ##### Main repository
 1. cd FolderName (move through folders)
@@ -8,7 +8,7 @@
 4. git commit -m "message" -m "caption" (commit changes)
 5. git push origin + Branch name
 
-##### extern folder
+##### Extern folder
 1. git init (it makes a connection between the repository and the extern folder)
 2. git remote add origin + sshkey(http-address)
 3. git remote -v (it shows the remote repositories)
