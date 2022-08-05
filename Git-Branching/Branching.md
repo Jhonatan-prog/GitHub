@@ -34,3 +34,11 @@ Overwriting: Two same lines of code in different branches (if this happend you w
 Conflict: The best way to fix a cnflict which is produce because of trying to merge branches is:
     1. Fixing your code
     2. Fix it with the terminal
+
+#### Undoing
+
+1. git reset + file name(undone what you did)
+2. git reset HEAD(last commit) -> (undon the a commit)
+    * HEAD~1 (it means instead of just go to the last commit I want to go back one commit further)
+3. git log (shows all the commits you've done)
+4. git reset --hard + commit id
