@@ -6,7 +6,8 @@
 2. git status
 3. git add (you can use "." = add all the folders or type the name of the folder)
 4. git commit -m "message" -m "caption" (commit changes)
-5. git push origin + Branch name
+5. git commit -ma "message" (-ma = mensagge and add, both at the same time) -> just work for modified files
+6. git push origin + Branch name
 
 ##### Extern folder
 1. git init (it makes a connection between the repository and the extern folder)
