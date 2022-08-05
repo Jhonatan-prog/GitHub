@@ -18,7 +18,7 @@ if you created a new branch(feature branch) and you save new contend on that bra
 1. git merge + BranchName
 2. git push -> (shows what you need to write to push your code)
 
-After all the changed have been saves and committed you must use the next command: git push -y origin + BranchName
+After all the changed have been saves and committed you must use the next command: git push -u origin + BranchName
 
 3. git pull + BranchName (This one emerge the feature branch with the main)
 
