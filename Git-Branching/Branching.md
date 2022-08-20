@@ -29,11 +29,20 @@ You don't need to use branches that has been moved to the main
 
 #### Marge conflicts
 
-Overwriting: Two same lines of code in different branches (if this happend you won't be able to swicth between branches)
+**Overwriting:**Two same lines of code in different branches (if this happend you won't be able to swicth between branches)
 
-Conflict: The best way to fix a cnflict which is produce because of trying to merge branches is:
-    1. Fixing your code
-    2. Fix it with the terminal
+**to solve the overwriting problem:**
+1. git stash (This will send your code to a stash which is temporary)
+2. git stash list (it will show you a list with the folders stashed)
+3. git stash show (to see details of the stash)
+
+**Retrieving Stashed Changes**
+1. git stash apply (This one will bring a copy of you work and at the same time will keep a copy on the stash)
+2. git stash pop (This will bring your work to your work-space and will delete the copy of the stash)
+
+**Conflict:**The best way to fix a cnflict which is produce because of trying to merge branches is:
+1. Fixing your code
+2. Fix it with the terminal
 
 #### Undoing
 
